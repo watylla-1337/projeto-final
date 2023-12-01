@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const uri = "mongodb+srv://watyllamacedo:Wmv-201001@watylla.g2kbtrd.mongodb.net/";
+const uri = "mongodb+srv://watyllamacedo:<passoword>@watylla.g2kbtrd.mongodb.net/";
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const db = mongoose.connection;
